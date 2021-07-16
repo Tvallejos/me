@@ -10,9 +10,9 @@ class About extends Component {
     const bio = this.props.data.bio;
     const city = this.props.data.address.city;
     const country = this.props.data.address.country;
-    const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const email = this.props.data.email;
+    const github = this.props.data.github;
     const resumeDownload = this.props.data.resumedownload;
 
     return (
@@ -23,7 +23,7 @@ class About extends Component {
               <img
                 className="profile-pic"
                 src={profilepic}
-                alt="Nordic Giant Profile Pic"
+                alt="Profile Pic"
               />
             </div>
             <div className="nine columns main-col">
@@ -46,9 +46,13 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href={resumeDownload} className="button" download>
                       <i className="fa fa-download"></i>Download Resume
                     </a>
+                    <br></br>
+                <a href={github} className="button btn github-btn">
+                  <i className="fa fa-github"></i>Github
+                </a>
                   </p>
                 </div>
               </div>
