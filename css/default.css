@@ -487,6 +487,11 @@ input[type="button"] {
    border-radius: 0px;
 }
 
+.action-btn {
+   width: 65%;
+   text-align: center;
+}
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
