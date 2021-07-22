@@ -39,30 +39,65 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
+        "school":"University of Chile",
+        "degree":"Master candidate in Computer Science",
+        "degrees":["Master candidate in Computer Science","Civil Engineering in Computer Science","Bachelors in Computer Science"],
+        "graduated":"July 2021",
+        "graduations":["July 2021 - present","2016 - present","2016 - 2021"],
+        "description":""
+      }
+    ],
+    "academic":[
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "place" : "Department of Computer Science (DCC) - University of Chile.",
+        "items" : [
+          {
+            "title" : "Member of the Academic Evaluation Committee",
+            "duration" : "2019 - 2021",
+            "description" : "Deal with administrative and strategic aspects of undergraduate teaching, ensure the curricular coherence of the specialty."
+          },
+          {
+            "title" : "Teaching director at the students center of DCC",
+            "duration" : "2019 - 2020",
+            "description" : "Represent students of DCC in front of any authority, promote integration and participation at the DCC community, generate instances to canalize and give solutions to students problems."
+          },
+          {
+            "title" : "Teaching Assistant at CC4101 Programming Languages",
+            "duration" : "Spring 2020 - present",
+            "description" : "Recitation of theorical and practical classes. Designing homeworks and tests. Management of teaching aides for test, exam and homework grading"
+          },
+          {
+            "title" : "Teaching Assistant at CC3002 Design and Programming Methodologies",
+            "duration" : "Fall 2020 - Spring 2021",
+            "description" : "Recitation of theoretical and practical classes. Management of teaching aides for test, exam and homework grading."
+          },
+          {
+            "title" : "Teaching Aide at CC4101 Programming Languages",
+            "duration" : "1 Semester",
+            "description" : ""
+          },
+          {
+            "title" : "Teaching Aide at CC3002 Design and Programming Methodologies",
+            "duration" : "2 Semesters",
+            "description" : ""
+          },
+          {
+            "title" : "Teaching Aide at CC3001 Algorithms and Data Structures",
+            "duration" : "2 Semesters",
+            "description" : ""
+          }
+
+        ]
+
+
       }
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company":"ALMA observatory",
+        "title":"Software Engineering Intern",
+        "years":"Summer 2020",
+        "description":"Design and implement a monitoring system for docker swarm application environment. Including an automatized setup and deployment for monitoring hosts, docker process and applications running inside of docker containers."
       }
     ],
     "skills":[
