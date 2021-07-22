@@ -5,12 +5,12 @@ class Contact extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const name = this.props.data.name;
-    const street = this.props.data.address.street;
-    const city = this.props.data.address.city;
-    const state = this.props.data.address.state;
-    const zip = this.props.data.address.zip;
-    const phone = this.props.data.phone;
+    //const name = this.props.data.name;
+    //const street = this.props.data.address.street;
+    //const city = this.props.data.address.city;
+    //const state = this.props.data.address.state;
+    //const zip = this.props.data.address.zip;
+    //const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
     return (
@@ -31,7 +31,7 @@ class Contact extends Component {
 
         <div className="row">
           <Slide left duration={1000}>
-            <div className="eight columns">
+            {/* <div className="eight columns"> */}
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
@@ -100,9 +100,10 @@ class Contact extends Component {
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
               </div>
-            </div>
+            {/* </div> */}
           </Slide>
 
+          {/*
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
@@ -147,6 +148,7 @@ class Contact extends Component {
               </div>
             </aside>
           </Slide>
+          */}
         </div>
       </section>
     );
